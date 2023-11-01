@@ -1,0 +1,325 @@
+/*HEADER*/
+.main-header-menu .menu-item:last-child a {
+    background-color: #E0B9B4;
+    width: 238px;
+    height: 80px;
+    margin-right: -35px;
+    justify-content: center;
+    color: #fff !important;
+    transition: none;
+}
+
+.main-header-menu .menu-item:last-child a:hover {
+    transform: none !important;
+    background-color: #C02E44;
+}
+
+#admin-button {
+    margin-right: 20px;
+}
+
+.elementor-36 .elementor-element.elementor-element-5ac591d {
+    width: 100%;
+    height: 80px;
+    background-color: #e3d9d0;
+    border-radius: 0 0 150% 150%;
+    margin-bottom: 20px;
+}
+
+.elementor-36 .elementor-element.elementor-element-2323339 {
+
+    width: 100%;
+    height: 30px;
+    background-color: #ECE2DA;
+    border-radius: 0 0 150% 150%;
+    margin-bottom: 20px;
+}
+
+.elementor-36 .elementor-element.elementor-element-2f31d3b {
+    width: 100%;
+    height: 70px;
+    background-color: #ECE2DA;
+    border-radius: 0 0 150% 150%;
+    margin-bottom: 20px;
+
+}
+
+.elementor-38 .elementor-element.elementor-element-8471b2d:not(.elementor-motion-effects-element-type-background) {
+
+    width: 100%;
+    height: 30px;
+    background-color: #ECE2DA;
+    border-radius: 0 0 150% 150%;
+    margin-bottom: 20px;
+}
+
+/*Titre*/
+@media (max-width: 768px) {
+    .elementor-36 .elementor-element.elementor-element-2b1f198 h1 {
+        font-size: 24px;
+    }
+}
+
+/*branche*/
+@media (max-width: 1339px) {
+    .elementor-36 .elementor-element.elementor-element-60d28bd {
+        display: none;
+    }
+}
+
+/*branche*/
+@media (max-width: 1339px) {
+    .elementor-36 .elementor-element.elementor-element-614fcc0 {
+        display: none;
+    }
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+}
+
+
+/* Styles communs aux boutons "+" */
+.bouton-plus {
+    margin-bottom: 31px;
+    width: 36px;
+    height: 28px;
+    border-style: none;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #dc9f96;
+    color: white;
+    border-top-right-radius: 5px;
+    border-bottom: solid white 0.5px;
+    line-height: 12px;
+    padding: 0 0 0 0px;
+
+}
+
+@media (max-width: 768px) {
+    .bouton-plus {
+        margin-bottom: 28px;
+    }
+}
+
+
+.bouton-moins {
+    margin-top: 31px;
+    margin-left: -40px;
+    width: 36px;
+    height: 28px;
+    border-style: none;
+    background-color: #dc9f96;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    border-bottom-right-radius: 5px;
+    border-top: solid white 0px;
+    line-height: 10px;
+    padding: 0 0 0 0px;
+    margin-left: -36px;
+
+}
+
+.bouton-ok {
+    background-color: #E0B9B4;
+    width: 100px;
+    height: 56px;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Syne', sans-serif;
+    color: white;
+    margin-left: 20px;
+}
+
+.mon-input {
+    margin-top: 0px !important;
+    width: 80px !important;
+    height: 80px !important;
+    border-radius: 5px 0 0 5px !important;
+    appearance: none;
+    -moz-appearance: textfield;
+    text-align: center;
+}
+
+.ligne {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 480px;
+}
+
+.formulaire-bloc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+
+.formulaire-colonne h3 {
+    color: #fff;
+    font-family: Syne;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.formulaire-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulaire-colonnes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.formulaire-colonne {
+    flex: 1;
+    margin: 0 5px;
+}
+
+.bordure-verticale {
+    width: 1px;
+    background-color: white;
+    margin: 0 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.bouton-envoyer {
+    align-self: center;
+}
+
+/*zone de texte du forulaire*/
+.elementor-40 .elementor-element.elementor-element-c80bb4a .wpcf7-form .wpcf7-form-control-wrap input[type*="text"] {
+    height: 71px;
+    width: 383px;
+    border-radius: 7px;
+}
+
+.elementor-40 .elementor-element.elementor-element-c80bb4a .wpcf7-form .wpcf7-form-control-wrap input[type*="email"] {
+    height: 71px;
+    width: 383px;
+    border-radius: 7px;
+}
+
+/*bouton commander*/
+.elementor-40 .elementor-element.elementor-element-c80bb4a .wpcf7-form .wpcf7-submit {
+    text-transform: unset;
+    font-family: syne;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 37px;
+    background-color: #E0B9B4;
+    padding: 10px 60px;
+    border-radius: 5px;
+    margin-left: 70px;
+}
+
+.titre-champ {
+    font-family: Syne !important;
+    font-size: 20px !important;
+    font-weight: 400 !important;
+    line-height: 24px !important;
+    letter-spacing: 0em !important;
+    text-align: left !important;
+    color: #fff !important;
+    margin-top: 20px !important;
+    margin-bottom: -20px !important;
+}
+
+.wpcf7 form.failed .wpcf7-response-output,
+.wpcf7 form.aborted .wpcf7-response-output {
+    border-color: #dc3232;
+    background-color: #E0B9B4;
+}
+
+.wpcf7 form.invalid .wpcf7-response-output,
+.wpcf7 form.unaccepted .wpcf7-response-output,
+.wpcf7 form.payment-required .wpcf7-response-output {
+    border-color: #ffb900;
+    background-color: #E0B9B4;
+}
+
+
+
+/* Ciblez les éléments input de type number avec l'attribut name égal à "numeric_field_framboises" */
+input[type="number"][name="fraise"] {
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+    appearance: textfield;
+    margin-top: 0px !important;
+    width: 56px !important;
+    height: 56px !important;
+    border-radius: 7px 0 0 7px !important;
+}
+
+.input-custom {
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+    appearance: textfield;
+    margin-top: 0px !important;
+    width: 56px !important;
+    height: 56px !important;
+    border-radius: 7px 0 0 7px !important;
+}
+
+@media screen and (max-width: 768px) {
+    .formulaire-colonnes {
+        flex-direction: column;
+    }
+
+    .formulaire-colonne {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .ligne {
+        margin-top: 450px;
+        margin-bottom: 350px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .formulaire-bloc {
+        margin: 10px 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .elementor-36 .elementor-element.elementor-element-761b8fd {
+        --width: 100%;
+    }
+}
+
+.bouton-envoyer {
+    text-transform: unset !important;
+    font-family: syne !important;
+    font-weight: 400 !important;
+    font-size: 15px !important;
+    line-height: 37px !important;
+    background-color: #E0B9B4 !important;
+    padding: 10px 60px !important;
+    border-radius: 5px !important;
+}
+
+.bouton-envoyer:hover {
+    background-color: #C02E44 !important;
+
+}
+
+.elementor-38 .elementor-element.elementor-element-378d08c .wpcf7-form .wpcf7-form-control-wrap textarea {
+    font-size: 16px !important;
+}
