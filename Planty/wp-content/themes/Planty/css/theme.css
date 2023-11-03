@@ -238,7 +238,6 @@
 }
 
 .titre-champ {
-    font-family: Syne !important;
     font-size: 20px !important;
     font-weight: 400 !important;
     line-height: 24px !important;
@@ -366,21 +365,19 @@ input[type="number"][name="fraise"] {
 @media (max-width: 1080px) {
     .elementor-38 .elementor-element.elementor-element-151dba8 img {
         display: none;
-        /* Cache l'image lorsque l'écran est de 1080px de largeur ou moins */
     }
 }
 
 @media (max-width: 490px) {
     .elementor-40 .elementor-element.elementor-element-c80bb4a .wpcf7-form .wpcf7-form-control-wrap input[type*="text"] {
         width: 250px;
-        /* Centre l'élément horizontalement */
+
     }
 }
 
 @media (min-width: 970px) {
     .formulaire-colonne h3 {
         margin-left: 18% !important;
-        /* Ajoute une marge de 18% à gauche */
     }
 }
 
@@ -405,14 +402,12 @@ input[type="number"][name="fraise"] {
 @media (max-width: 440px) {
     .elementor-40 .elementor-element.elementor-element-2d06635 .elementor-heading-title {
         font-size: 28.5px;
-        /* Applique une taille de police de 30px en dessous de 440px */
     }
 }
 
 @media (max-width: 350px) {
     .elementor-38 .elementor-element.elementor-element-8ddda2e {
         font-size: 19px;
-        /* Réduit la taille de la police à 19px en dessous de 350px */
     }
 }
 
