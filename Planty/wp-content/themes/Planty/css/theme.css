@@ -2,11 +2,12 @@
 .main-header-menu .menu-item:last-child a {
     background-color: #E0B9B4;
     width: 238px;
-    height: 80px;
+    height: 88px;
     margin-right: -35px;
     justify-content: center;
     color: #fff !important;
     transition: none;
+    margin-bottom: -1px;
 }
 
 .main-header-menu .menu-item:last-child a:hover {
@@ -74,13 +75,14 @@
     }
 }
 
+/*bouton  page commander dispo*/
 .input-container {
     display: flex;
     align-items: center;
 }
 
+/*Page COMMANDER*/
 
-/* Styles communs aux boutons "+" */
 .bouton-plus {
     margin-bottom: 31px;
     width: 36px;
@@ -97,6 +99,7 @@
 
 }
 
+/*decale le bounton plus*/
 @media (max-width: 768px) {
     .bouton-plus {
         margin-bottom: 28px;
@@ -136,7 +139,7 @@
 }
 
 .mon-input {
-    margin-top: 0px !important;
+    margin-top: 100px !important;
     width: 80px !important;
     height: 80px !important;
     border-radius: 5px 0 0 5px !important;
@@ -145,11 +148,10 @@
     text-align: center;
 }
 
+/*ligne des phot et des bouton + et -*/
 .ligne {
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 480px;
 }
 
 .formulaire-bloc {
@@ -194,6 +196,15 @@
     margin: 0 5px;
     margin-left: 50px;
     margin-right: 50px;
+}
+
+.barre-horizontale {
+    width: 860px;
+    height: 0.5px;
+    background-color: white;
+    margin: 0 auto;
+    margin-bottom: 40px;
+
 }
 
 .bouton-envoyer {
@@ -274,7 +285,7 @@ input[type="number"][name="fraise"] {
     border-radius: 7px 0 0 7px !important;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 970px) {
     .formulaire-colonnes {
         flex-direction: column;
     }
@@ -284,10 +295,10 @@ input[type="number"][name="fraise"] {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 970px) {
     .ligne {
-        margin-top: 450px;
-        margin-bottom: 350px;
+
+        margin-bottom: 100px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -298,9 +309,28 @@ input[type="number"][name="fraise"] {
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 970px) {
     .elementor-36 .elementor-element.elementor-element-761b8fd {
         --width: 100%;
+    }
+}
+
+/*titre planty*/
+@media (max-width: 401px) {
+    .elementor-36 .elementor-element.elementor-element-2b1f198 h1 {
+        font-size: 17px;
+    }
+}
+
+/*menu responsive*/
+@media (max-width: 921px) {
+    .ast-builder-menu-mobile .main-navigation .main-header-menu .menu-item>.menu-link {
+        color: var(--ast-global-color-2);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: center;
     }
 }
 
@@ -322,4 +352,95 @@ input[type="number"][name="fraise"] {
 
 .elementor-38 .elementor-element.elementor-element-378d08c .wpcf7-form .wpcf7-form-control-wrap textarea {
     font-size: 16px !important;
+}
+
+/* titre nous rencontrer */
+@media (max-width: 400px) {
+    .elementor-38 .elementor-element.elementor-element-9ee59fb .elementor-heading-title {
+        font-size: 24px;
+    }
+}
+
+
+/* image nous rencontrer  */
+@media (max-width: 1080px) {
+    .elementor-38 .elementor-element.elementor-element-151dba8 img {
+        display: none;
+        /* Cache l'image lorsque l'écran est de 1080px de largeur ou moins */
+    }
+}
+
+@media (max-width: 490px) {
+    .elementor-40 .elementor-element.elementor-element-c80bb4a .wpcf7-form .wpcf7-form-control-wrap input[type*="text"] {
+        width: 250px;
+        /* Centre l'élément horizontalement */
+    }
+}
+
+@media (min-width: 970px) {
+    .formulaire-colonne h3 {
+        margin-left: 18% !important;
+        /* Ajoute une marge de 18% à gauche */
+    }
+}
+
+@media (max-width: 544px) {
+
+    h3,
+    .entry-content h3 {
+        font-size: 25px;
+    }
+}
+
+
+
+
+@media (max-width: 490px) {
+    .elementor-40 .elementor-element.elementor-element-c80bb4a .wpcf7-form .wpcf7-form-control-wrap input[type*="email"] {
+        width: 250px;
+    }
+}
+
+/* titre commander */
+@media (max-width: 440px) {
+    .elementor-40 .elementor-element.elementor-element-2d06635 .elementor-heading-title {
+        font-size: 28.5px;
+        /* Applique une taille de police de 30px en dessous de 440px */
+    }
+}
+
+@media (max-width: 350px) {
+    .elementor-38 .elementor-element.elementor-element-8ddda2e {
+        font-size: 19px;
+        /* Réduit la taille de la police à 19px en dessous de 350px */
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    body {
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+}
+
+/*feuille nous rencontrer en tete et formulaire*/
+.e-con.e-con>.e-con-inner>.elementor-widget,
+.elementor.elementor .e-con>.elementor-widget {
+    max-width: 100%;
+    position: relative;
+}
+
+/* fleur page rencontrer haut de page */
+@media (max-width: 930px) {
+    .elementor-38 .elementor-element.elementor-element-debae34 img {
+        display: none;
+    }
+}
+
+/* fleur page rencontrer formulaire  */
+@media (max-width: 500px) {
+    .elementor-38 .elementor-element.elementor-element-6535e86 {
+        display: none;
+
+    }
 }
