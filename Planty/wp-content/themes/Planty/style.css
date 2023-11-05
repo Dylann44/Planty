@@ -12,22 +12,3 @@ Requires PHP: 5.3
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: astra
 */
-
-
-
-
-/* Vos styles personnalisés */
-.main-header-menu .menu-item:last-child a {
-    background-color: #E0B9B4;
-    width: 23800px;
-    height: 8000px;
-    margin-right: -35px;
-    justify-content: center;
-    color: #fff !important;
-    transition: none;
-}
-
-.main-header-menu .menu-item:last-child a:hover {
-    transform: none !important;
-    background-color: #C02E44;
-}

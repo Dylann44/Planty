@@ -11,8 +11,15 @@ function add_admin_button_to_menu($items, $args) {
     if (is_user_logged_in() && $args->theme_location == 'primary') {
         $admin_url = admin_url();
         $admin_button = '<li id="admin-button" class="menu-item"><a href="' . $admin_url . '">Admin</a></li>';
-        $items = preg_replace('/<\/li>/', $admin_button . '</li>', $items, 1);
+        
+        $menu_items = explode('</li>', $items);
+        $middle_position = floor(count($menu_items) / 2);
+
+        array_splice($menu_items, $middle_position, 0, $admin_button);
+
+        $items = implode('</li>', $menu_items);
     }
     return $items;
 }
+
 add_filter('wp_nav_menu_items', 'add_admin_button_to_menu', 10, 2);
